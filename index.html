@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petualang Berlari Ninja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>🍥 PETUALANG BERLARI NINJA</h2>
+
+    <div class="info">
+        Skor: <span id="skor">0</span>
+        &nbsp; Koin: <span id="koin">0</span>
+    </div>
+
+    <div class="game-box">
+        <canvas id="game" width="400" height="600"></canvas>
+
+        <div id="mulai">
+            <h2>LARI NINJA!</h2>
+            <p>Hindari rintangan dan kumpulkan koin!</p>
+            <button id="btnMulai">MULAI BERLARI</button>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="kiri">⬅️</button>
+        <button id="lompat">⬆️</button>
+        <button id="geser">⬇️</button>
+        <button id="kanan">➡️</button>
+    </div>
+
+    <p class="petunjuk">
+        ⬅️ ➡️ Pindah jalur · ⬆️ Lompat · ⬇️ Meluncur
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
